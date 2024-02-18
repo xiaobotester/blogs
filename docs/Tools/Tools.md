@@ -17,3 +17,7 @@ DevToys 还支持自定义扩展，开发人员可以根据自己的需求开发
 DevToys 是一个免费和开源的工具，可以从微软官网下载。
 DevToys官网：https://devtoys.app/
 DevToys Github源码：https://github.com/veler/DevToys
+
+
+## 文本差异对比网站diffchecker
+https://www.diffchecker.com/zh-Hans/text-compare/
