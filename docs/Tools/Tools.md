@@ -18,3 +18,7 @@
 ## 文本差异对比网站
 **diffchecker**  
 https://www.diffchecker.com/zh-Hans/text-compare/
+
+## 截图工具
+**Snipaste**
+下载地址：https://zh.snipaste.com/  
