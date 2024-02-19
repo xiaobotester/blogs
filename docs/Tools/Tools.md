@@ -20,6 +20,6 @@
 https://www.diffchecker.com/zh-Hans/text-compare/
 
 ## 截图工具
-**Snipaste**
+**Snipaste**  
 **下载地址:**https://zh.snipaste.com/  
 **网盘下载地址：**「Snipaste-2.8.8-Beta-x64.zip」链接：https://pan.quark.cn/s/d0dc1518b74c  
