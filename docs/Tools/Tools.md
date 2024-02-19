@@ -11,15 +11,14 @@
 生成类型工具：Hash、密码生成器、UUID、随机的字符  
 文本处理类型工具：字符转移、字符串处理、文本对比、正则表达式、Markdown预览等  
 图片处理类型工具：图片压缩、颜色选择器和对比度、图片格式转换  
-**DevToys官网:**https://devtoys.app/  
-**DevToys Github源码:**https://github.com/veler/DevToys  
-**网盘下载地址:**「DevToys_1.0.13.0.msixbundle」链接：https://pan.quark.cn/s/d50cbce2e039  
+**DevToys官网:** <https://devtoys.app/>  
+**网盘下载地址:** <https://pan.quark.cn/s/d50cbce2e039>  
 
 ## 文本差异对比网站
 **diffchecker**  
-https://www.diffchecker.com/zh-Hans/text-compare/
+<https://www.diffchecker.com/zh-Hans/text-compare/>
 
 ## 截图工具
 **Snipaste**  
-**下载地址:**https://zh.snipaste.com/  
-**网盘下载地址：**「Snipaste-2.8.8-Beta-x64.zip」链接：https://pan.quark.cn/s/d0dc1518b74c  
+**官网地址:** <https://zh.snipaste.com/>  
+**网盘下载地址：** <https://pan.quark.cn/s/d0dc1518b74c>  
