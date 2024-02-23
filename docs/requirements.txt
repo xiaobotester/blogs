@@ -65,3 +65,4 @@ watchdog
 zipp
     # via importlib-metadata
 mkdocs-windmill
+mkdocs-material

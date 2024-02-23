@@ -1,6 +1,6 @@
 site_name: 小博测试成长之路
 theme:
-  name: readthedocs
+  name: material
   show_powered_by: false
   code_font_size: 14
   theme_contrast: high
