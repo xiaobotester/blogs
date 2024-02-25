@@ -1,13 +1,6 @@
 site_name: 小博测试成长之路
 theme:
   name: material
-  show_powered_by: false
-  code_font_size: 14
-  theme_contrast: high
-  font_family: "Helvetica, Arial, sans-serif"
-  monospace_font: "Courier New, monospace"
-  use_directory_urls: true
-
 plugins:
   - search
   - mkdocstrings:
