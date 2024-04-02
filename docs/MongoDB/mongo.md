@@ -29,7 +29,7 @@ db.yourCollectionName.updateMany({}, {$unset: {字段名: ""}},{multi: true});
 
 ## 查询数据
 
-
+**Long类型数据的查询**  
 如果某个字段是Long类型，而不是字符串或其他类型，那么使用正则表达式的方式可能会有一些问题。在这种情况下，你可以使用 MongoDB 的 $gte（大于等于）和 $lt（小于）运算符来查询以xxx开头的字段。
 ```
 db.yourCollectionName.find({
@@ -38,4 +38,49 @@ db.yourCollectionName.find({
     $lt: 500000000     // 小于 5 开头的最大值
   }
 })
+```
+
+**其他常见查询案例**  
+
+案例一:**查询tableA表的field1字段在tableB表中不存在的记录**  
+```
+db.tableA.aggregate([
+  {
+    $match: {
+      // 添加其他条件，例如age字段大于等于18
+      age: { $gte: 18 },
+      // 如果还有其他条件，可以继续在这里添加
+    }
+  },
+  {
+    $lookup: {
+      from: "tableB",
+      localField: "field1",
+      foreignField: "field1",
+      as: "matched_records"
+    }
+  },
+  {
+    $match: {
+      matched_records: { $size: 0 } // 找出没有匹配到B表的记录
+    }
+  },
+  {
+    $project: {
+      _id: 0, // 不显示默认的_id字段
+      field1: 1 // 显示eventId字段
+      // 在这里可以继续添加其他需要显示的字段
+    }
+  }
+])
+localField：表示当前集合（在这里是A表）中的字段，该字段的值将用于与另一个集合中的字段进行匹配。
+foreignField：表示另一个集合（在这里是B表）中的字段，将与当前集合中的字段进行匹配。
+```
+
+案例二:**从查询的结果中随机返回几条数据**    
+```
+tb.aggregate([
+  {"$match": {"status": 1}},  
+  {"$sample": {"size": 50}}
+  ]) # 随机返回50条status=1的数据
 ```
