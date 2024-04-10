@@ -1,13 +1,13 @@
 ## 安装nodejs
-<https://nodejs.org/en> ,推荐下载安装LTS版本，另外，不建议安装最新的版本
+<https://nodejs.org/en> 
+<https://www.nodejs.com.cn/>
+,推荐下载安装LTS版本，另外，不建议安装最新的版本
 
-
-环境变量配置  
+环境变量配置(待确认是否有效)
 ```
 setx NODE_HOME1 "D:\Software\nodejs"
 setx PATH "%PATH%;%NODE_HOME%;%NODE_HOME%\node_global"
 ```
-
 配置nodsjs全局安装目录和npm 的缓存目录
 ```
 npm config set prefix "D:\Software\nodejs\node_global"
